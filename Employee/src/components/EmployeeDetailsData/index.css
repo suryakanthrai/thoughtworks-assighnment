@@ -1,0 +1,63 @@
+
+.employee-details-container {
+    display: flex;
+    align-items: center;
+}
+  
+.list-style {
+    list-style-type: none;
+}
+  
+.checbox-style {
+    height: 18px;
+    width: 18px;
+}
+  
+.employee-name-container {
+    width: 35%;
+}
+  
+.employee-email-container {
+     width: 20%; 
+}
+  
+.employee-role-container {
+     width: 20%;
+}
+
+.employee-name {
+    padding-left: 100px;
+}
+  
+.employee-email {
+    padding-left: 100px;
+}
+  
+.employee-role {
+    padding-left: 50px;
+}
+  
+@media screen and (min-width: 768px) {
+    .employee-name {
+      padding-left: 270px;
+    }
+  
+    .employee-email {
+      padding-left: 140px;
+    }
+  
+    .employee-role {
+      padding-left: 195px;
+    }
+    .image-container {
+      padding-left: 250px;
+    }
+}
+
+.horizontal{
+  width: 100%;
+}
+
+.icon-style{
+  cursor: pointer;
+}
